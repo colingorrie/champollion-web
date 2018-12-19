@@ -1,0 +1,6 @@
+{
+  "jsxBracketSameLine": true,
+  "htmlWhitespaceSensitivity": "strict",
+  "singleQuote": true,
+  "trailingComma": "es5"
+}
