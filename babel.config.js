@@ -1,5 +1,7 @@
 module.exports = {
-  presets: [
-    '@vue/app'
-  ]
-}
+  presets: ['@babel/typescript', '@vue/app'],
+  plugins: [
+    '@babel/proposal-class-properties',
+    '@babel/proposal-object-rest-spread',
+  ],
+};

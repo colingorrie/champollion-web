@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "tsc": "tsc",
+    "tsc:watch": "tsc --watch",
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -19,6 +21,9 @@
     "vuex": "3.0.1"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "7.3.0",
+    "@babel/plugin-proposal-object-rest-spread": "7.3.1",
+    "@babel/preset-typescript": "7.1.0",
     "@types/jest": "23.3.13",
     "@typescript-eslint/eslint-plugin": "1.1.0",
     "@typescript-eslint/parser": "1.1.0",
