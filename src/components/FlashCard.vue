@@ -6,7 +6,8 @@
       'border-l-8': isFront,
       'border-cyan-9': !isFront,
       'border-r-8': !isFront,
-    }">
+    }"
+  >
     <template v-if="isFront">
       <p class="mx-auto text-4xl text-black text-center">大半夜</p>
     </template>
