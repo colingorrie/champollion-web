@@ -2,20 +2,11 @@
   <div class="h-full mx-auto container">
     <div class="flex flex-col h-full justify-center">
       <div class="flex justify-center mb-4">
-        <FlashCard :isFront="isFront" />
+        <flash-card :isFront="isFront"/>
       </div>
       <div class="flex justify-center w-100">
-        <action-button
-          v-show="isFront"
-          @click="flipCard"
-          text="Flip"
-          emoji="🐬"
-          shortcut="↩"
-        ></action-button>
-        <answer-buttons
-          v-show="!isFront"
-          @answer="handleAnswer"
-        ></answer-buttons>
+        <action-button v-show="isFront" @click="flipCard" text="Flip" emoji="🐬" shortcut="↩"></action-button>
+        <answer-buttons v-show="!isFront" @answer="handleAnswer"></answer-buttons>
       </div>
     </div>
   </div>
